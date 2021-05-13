@@ -1,5 +1,10 @@
 ol {
     color: white;
+    border-right: 1px solid white;
+    width: 100px;
+    margin: 0;
+    margin-left: 3%;
+    padding: 20px;
 }
 
 a {
@@ -10,11 +15,16 @@ a {
 h1 {
     color: white;
     text-align: center;
+    font-size: 45px;
+    border-bottom: 1px solid white;
+    margin: 0;
+    padding-bottom: 70px;
+    padding-top: 100px;
 }
 
 h2 {
     color: white;
-    font-size: 80px;
+    font-size: 50px;
 }
 
 li {
@@ -24,4 +34,17 @@ li {
 img {
     width: 100%;
     height: 100%
+}
+
+body {
+    margin: 0px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#word {
+    padding-left: 10%;
+    padding-right: 10%;
 }
